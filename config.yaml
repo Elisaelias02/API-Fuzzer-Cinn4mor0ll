@@ -1,0 +1,39 @@
+# Configuración general del API Fuzzer
+fuzzer:
+  name: "API Security Fuzzer"
+  version: "1.0.0"
+  
+# Configuración de peticiones HTTP
+http:
+  timeout: 10           # Segundos
+  delay: 0.5            # Pausa entre peticiones (segundos)
+  retries: 3            # Reintentos en caso de fallo
+  verify_ssl: true      # Verificar certificados SSL
+
+# Módulos a ejecutar (true = activo, false = desactivado)
+modules:
+  bola_detector: true
+  auth_detector: true
+  data_exposure_detector: true
+
+# Configuración de reportes
+reporting:
+  output_dir: "./reports"
+  formats:
+    - json
+    - html
+    - txt
+  
+# Niveles de severidad
+severity_levels:
+  critical: 9.0
+  high: 7.0
+  medium: 4.0
+  low: 1.0
+  info: 0.0
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/fuzzer.log"
+  console: true
