@@ -37,14 +37,14 @@ API  Fuzzer es una herramienta de testing de seguridad diseñada para detectar v
 ### Instalación Rápida
 ```bash
 # Clonar repositorio
-git clone https://github.com/secureaegis/api-security-fuzzer.git
-cd api-security-fuzzer
+git clone https://github.com/Elisaelias02/API-Fuzzer-Cinn4mor0ll
+cd API-Fuzzer-Cinn4mor0ll
 
 # Instalar dependencias
 pip install -r requirements.txt
 
 # Verificar instalación
-python api_fuzzer_pro.py --version
+python fuzzer.py --version
 ```
 
 ### Dependencias
