@@ -278,13 +278,7 @@ Detalles:        Time-based Command Injection - Delay: 5.23s
 
 ---
 
-## 📝 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver archivo `LICENSE` para más detalles.
-
----
-
-## 📧 Contacto
+## Contacto
 
 **SecureAegis**
 - 🌐 Website: [https://secureaegis.net](https://secureaegis.net)
