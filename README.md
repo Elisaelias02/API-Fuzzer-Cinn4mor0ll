@@ -136,7 +136,7 @@ python vulnapi_lab.py
 ### Probar el Fuzzer contra VulnAPI
 ```bash
 # Terminal 2: Ejecutar fuzzer
-python api_fuzzer_pro.py -u http://localhost:5000 --type all -o test_results.txt -v
+python fuzzer.py -u http://localhost:5000 --type all -o test_results.txt -v
 ```
 
 ### Endpoints Vulnerables
@@ -156,7 +156,7 @@ python api_fuzzer_pro.py -u http://localhost:5000 --type all -o test_results.txt
 
 ### Todos los Parámetros
 ```bash
-python api_fuzzer_pro.py -h
+python fuzzer.py -h
 
 Opciones principales:
   -u, --url URL              URL base de la API
