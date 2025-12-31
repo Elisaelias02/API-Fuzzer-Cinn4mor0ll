@@ -128,7 +128,7 @@ Incluye una API vulnerable para practicar:
 ### Iniciar VulnAPI Lab
 ```bash
 # Terminal 1: Iniciar API vulnerable
-python vulnapi_lab.py
+python VulnAPI.py
 
 # API corriendo en http://localhost:5000
 ```
