@@ -256,7 +256,7 @@ Detalles:        Time-based Command Injection - Delay: 5.23s
 ##  Arquitectura
 ```
 ┌─────────────────────────────────────────────────────┐
-│              API Security Fuzzer Pro                │
+│                 API Security Fuzzer                 │
 ├─────────────────────────────────────────────────────┤
 │                                                     │
 │  1. PayloadGenerator  →  Payloads por tipo         │
